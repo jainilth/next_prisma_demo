@@ -1,4 +1,4 @@
-import { faculties } from '@/app/generated/prisma/client'
+import { faculties } from '@/app/generated/prisma/browser'
 import { prisma } from '@/app/lib/prisma'
 import Link from 'next/link'
 import React from 'react'
