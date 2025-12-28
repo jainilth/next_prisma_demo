@@ -30,6 +30,7 @@ export default function HomeLayout({ children }: { children: React.ReactNode }) 
                                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" */}
                                     <Link href="/" aria-current="page" className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">Dashboard</Link>
                                     <Link href="/home/faculties" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Faculties</Link>
+                                    <Link href="/home/users" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Users</Link>
                                     <Link href="/home/student" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Students</Link>
                                 </div>
                             </div>

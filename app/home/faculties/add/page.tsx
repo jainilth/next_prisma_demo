@@ -1,10 +1,10 @@
-import SaveUser from "@/app/actions/save/SaveUser";
+import SaveFaculty from "@/app/actions/save/SaveFaculty";
 import React from "react";
 
 export default function AddFaculty() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <form className="w-full max-w-md bg-white shadow-lg rounded-lg p-6" action={SaveUser}>
+      <form className="w-full max-w-md bg-white shadow-lg rounded-lg p-6" action={SaveFaculty}>
         <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">
           Add Faculty
         </h2>

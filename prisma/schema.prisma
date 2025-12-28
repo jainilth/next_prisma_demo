@@ -24,3 +24,13 @@ model students {
   city       String?   @db.VarChar(50)
   created_at DateTime? @default(now()) @db.Timestamp(0)
 }
+
+model users {
+  id            Int       @id @default(autoincrement())
+  name          String    @db.VarChar(100)
+  email         String?   @unique(map: "email") @db.VarChar(100)
+  password_hash String?   @db.VarChar(150)
+  phone         String?   @db.VarChar(15)
+  city          String?   @db.VarChar(50)
+  created_at    DateTime? @default(now()) @db.Timestamp(0)
+}

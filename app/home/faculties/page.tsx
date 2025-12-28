@@ -1,4 +1,4 @@
-import deleteFaculty from '@/app/actions/delete/DeleteFaculty'
+import DeleteFaculty from '@/app/actions/delete/DeleteFaculty'
 import { faculties } from '@/app/generated/prisma/browser'
 import { prisma } from '@/app/lib/prisma'
 import Deletebtn from '@/app/ui/Deletebtn'
@@ -89,7 +89,7 @@ async function Faculties() {
                         </Link>
                       </td>
                       <td>
-                        <Deletebtn id={fac.id} deleteFn={deleteFaculty}/>
+                        <Deletebtn id={fac.id} deleteFn={DeleteFaculty}/>
                       </td>
                     </tr>
                   ))
